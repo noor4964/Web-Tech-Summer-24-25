@@ -22,4 +22,4 @@ To run these files locally:
 3. Access via browser at `http://localhost/phpnut/`
 
 ## Author
-SK. NUR ALAm
+SK. NUR ALAM
