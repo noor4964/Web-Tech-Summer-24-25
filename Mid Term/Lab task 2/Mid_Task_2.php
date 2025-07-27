@@ -8,8 +8,8 @@
 <body>
     <center>
         <img src="aiub_logo.png" width="100">
-        <h1 style="color: blue;">Bank Management System</h1>
-        <h2 style="color: red;">Your Trusted Financial Partner</h2>
+        <h1>Bank Management System</h1>
+        <h2>Your Trusted Financial Partner</h2>
     </center>
 
     <form>
@@ -112,17 +112,33 @@
 
     <style>
         body {
-            background-color: skyblue;
+            background-color: rgba(230, 247, 255, 1);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
 
+        }
+
+        h1 {
+            color: #0066cc;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #cc0000;
+            margin-top: 0;
+            text-align: center;
         }
 
         table {
 
-            margin: 100px auto;
-            padding: 100px;
-            border: 1px solid black;
+            width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #999;
             border-radius: 10px;
-            background-color: cyan;
+            background-color: #b3e6ff;
 
         }
 
