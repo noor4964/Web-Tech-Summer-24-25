@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Clinic Patient Registration</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <h2>Clinic Patient Registration</h2>
+    <form id="registrationForm" autocomplete="off" novalidate>
+      <div class="form-group">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" required>
+        <div class="error-message" id="fullNameErr"></div>
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" min="0" required>
+        <div class="error-message" id="ageErr"></div>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" required>
+        <div class="error-message" id="phoneErr"></div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" required>
+        <div class="error-message" id="emailErr"></div>
+      </div>
+      <div class="form-group">
+        <label for="insuranceProvider">Insurance Provider:</label>
+        <select id="insuranceProvider" required>
+          <option value="">Select Provider</option>
+          <option value="ever">Ever Care</option>
+          <option value="labAid">Lab AId</option>
+
+          <option value="None">None</option>
+
+        </select>
+        <div class="error-message" id="insuranceProviderErr"></div>
+      </div>
+      <div class="form-group">
+        <label for="policyNumber">Insurance Policy Number:</label>
+        <input type="text" id="policyNumber" required>
+        <div class="error-message" id="policyNumberErr"></div>
+      </div>
+      <div class="section-title">Additional Information</div>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+        <div class="error-message" id="usernameErr"></div>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        <div class="error-message" id="passwordErr"></div>
+      </div>
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" required>
+        <div class="error-message" id="confirmPasswordErr"></div>
+      </div>
+      <button type="submit" class="register-btn">Register</button>
+    </form>
+  </div>
+  <script src="../JS/validation.js"></script>
+</body>
+
+</html>

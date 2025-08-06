@@ -1,0 +1,93 @@
+    body {
+      background: #f5f9ff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 420px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+      padding: 28px 18px 20px 18px;
+      box-sizing: border-box;
+    }
+    h2 {
+      text-align: center;
+      color: #183153;
+      margin-bottom: 26px;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: .5px;
+    }
+    .form-group {
+      margin-bottom: 14px;
+    }
+    label {
+      display: block;
+      margin-bottom: 3px;
+      font-weight: bold;
+      color: #183153;
+      font-size: 15px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="password"],
+    select {
+      width: 100%;
+      padding: 7px 8px;
+      font-size: 15px;
+      border: 1px solid #c7d2df;
+      border-radius: 5px;
+      box-sizing: border-box;
+      outline: none;
+      transition: border-color 0.17s;
+      background: #fafcff;
+    }
+    input:focus, select:focus {
+      border-color: #183153;
+    }
+    .error-message {
+      color: #ef233c;
+      font-size: 13px;
+      margin-top: 2px;
+      margin-bottom: 0;
+      font-weight: normal;
+    }
+    .section-title {
+      text-align: center;
+      color: #183153;
+      font-size: 17px;
+      font-weight: bold;
+      margin: 17px 0 8px 0;
+    }
+    .register-btn {
+      width: 100%;
+      background: #0a2c53;
+      color: #fff;
+      padding: 9px;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+      font-weight: normal;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: background 0.18s;
+    }
+    .register-btn:hover {
+      background: #183153;
+    }
+    @media (max-width: 500px) {
+      .container {
+        margin: 16px 3px;
+        padding: 11px 2px 13px 2px;
+      }
+      h2 {
+        font-size: 19px;
+      }
+      .section-title {
+        font-size: 15px;
+      }
+    }
